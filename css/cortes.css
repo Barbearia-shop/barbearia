@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+body{
+    background-color: #540a2c;
+ }
+ .navbar-container{
+    display: flex;
+    background-color: #F5F9F1;
+    border-radius: 5px;
+    width: 100%;
+    height: 90px;
+}
+.nav-items{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    list-style: none;
+    width: 100%;
+}
+.nav-items li,
+a{
+    margin: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #540a2c;
+    font-weight: bold;
+    transition: 0.1s;
+
+}
+.nav-items li:hover{
+    border: 2px solid #540a2c;
+    background-color: #fff;
+    border: 2px solid #540a2c;
+    font: bold;
+    border-radius: 5px;
+    font-style: italic;
+}
+.main-galery h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 3px 3px black;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.main-galery h1:hover{
+    color: #AEA3AA;
+}
+figure{
+text-align: center;
+margin:10px 3px;
+}
+.galery img{
+    margin: 10px;
+    border-radius: 10px;
+}
+.value{
+    display: flex;
+   width: 100%;
+   height: 60px;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+.value ul{
+    list-style: none;
+    padding: 10px;
+}
+.value li{
+    background-color: #F5F9F1;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #540a2c;
+}
+.pacote{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px black;
+    font-size: 20px;
+    
+}
+.aluno{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
+    text-shadow: 3px 3px black;
+}
+.end{
+    display: flex;
+    background-color: #F5F9F1;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: 90px;
+}
+.location{
+    width: 100%;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.location img{
+    width: 35px;
+    height:35px;
+}
+
+.end-one{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.one{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
