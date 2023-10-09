@@ -39,7 +39,6 @@ a{
     border: 2px solid #540a2c;
     font: bold;
     border-radius: 5px;
-    font-style: italic;
 }
 .main-banner{
     display: flex;
@@ -154,7 +153,3 @@ a{
     margin-right: 1rem;
     cursor: pointer;
 }
-
-
-
-
